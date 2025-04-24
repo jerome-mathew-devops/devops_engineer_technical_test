@@ -1,7 +1,7 @@
 variable "service_name" {
     description = "Variable holder for Cloud Service Name"
     type = string
-    default = "php_run_service"
+    default = "phprunservice"
   
 }
 
