@@ -23,8 +23,8 @@ jobs:
         uses: google-github-actions/setup-gcloud@v1
         with:
           project_id: ${{ secrets.MY_PROJECT_ID }} #Project ID stored as a secret on github
-          service_account_key: ${{ secrets.SERVICE_ACC_KEY }} #Service account key also stored on github secret
-          export_default_credentials: true
+          credentials_json: '${{ secrets.SERVICE_ACC_KEY }}' #Service account key also stored on github secret
+          
 
       #All tests of my PHP application was done locally to ensure authenticity before any code was pushed
 
