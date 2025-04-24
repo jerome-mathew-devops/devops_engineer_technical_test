@@ -26,8 +26,8 @@ jobs:
           
       - name: Authenticate with GCP
         run: |
-          gcloud auth activate-service-account --key-file=${{ secrets.GCP_SA_KEY }}
-          gcloud config set project ${{ secrets.GCP_PROJECT_ID }}
+          gcloud auth activate-service-account --key-file=${{ secrets.SERVICE_ACC_KEY }}
+          gcloud config set project ${{ secrets.MY_PROJECT_ID }}
 
 
       #All tests of my PHP application was done locally to ensure authenticity before any code was pushed
