@@ -3,4 +3,4 @@
 
 echo "This is a php script";
 
-?>
+?> 
