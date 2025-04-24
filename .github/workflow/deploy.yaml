@@ -3,8 +3,8 @@ name: Checkout, Build, Push and Deploy
 
 on: 
   push:       #Workflow triggered on code push to development branch
-    branches:
-      - development
+    branches: [ development ]
+      
 
 env:
   DOCKER_IMAGE: ${{ secrets.DOCKER_USERNAME }}/php-app
