@@ -49,4 +49,4 @@ jobs:
             --platform managed \
             --region $REGION \
             --allow-unauthenticated
-      # Docker image pull from docker hub and deployed to google cloud run service
+      # Docker image pull from docker hub and deployed to google cloud run service 
