@@ -1,0 +1,6 @@
+Fetching cloud run URL for service devops-assessment (env: development)
+ERROR: (gcloud.run.services.describe) unrecognized arguments:   
+
+To search the help text of gcloud commands, run:
+  gcloud help -- SEARCH_TERMS
+Fetching cloud run URL for service devops-assessment (env: development)
